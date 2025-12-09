@@ -1,7 +1,7 @@
 :root{
     --routes-of-america-navbar-links-hover-color: #ffa500;
     --routes-of-america-navbar-links-visited-color: #ffff00;
-    --us-highway-signage-history-table-border-color: #000000;
+    --state-route-table-border-color: #000000;
 }
 #background_us_image, #main_state_route_title_image{
     margin-left: auto;
@@ -28,7 +28,7 @@
     padding: 5px 10px;
 }
 #state_route_table, td, th{
-    border: 1px solid var(--us-highway-signage-history-table-border-color);
+    border: 1px solid var(--state-route-table-border-color);
 }
 #routes_of_america_navbar li a:hover, #copyright_link:hover, #web_portfolio_link:hover{
     color: var(--routes-of-america-navbar-links-hover-color);
