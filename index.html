@@ -26,32 +26,34 @@
     </head>
     <body>
         <header class="site-header bg-dark sticky-top py-1">
-            <nav>
+            <nav id="routes_of_america_navbar">
                 <ul>
-                    <li>Home</li>
-                    <li>Interstate Highways</li>
-                    <li>U.S. Highways</li>
-                    <li>State Routes</li>
-                    <li>Other Routes and Highways</li>
+                    <li><a class="text-white" href="https://cbroyal.github.io/TROA/">Home</a></li>
+                    <li><a class="text-white" href="https://cbroyal.github.io/TROAIH/">Interstate Highways</a></li>
+                    <li><a class="text-white" href="https://cbroyal.github.io/TROAUSH/">U.S. Highways</a></li>
+                    <li><a class="text-white" href="https://cbroyal.github.io/TROASR/">State Routes</a></li>
+                    <li><a class="text-white" href="https://cbroyal.github.io/TROAORH/">Other Routes and Highways</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <img src="United_States_of_America_Image.jpg" alt="United States of America" width="300"
+            <img class="d-block" id="background_us_image" src="United_States_of_America_Image.jpg" alt="United States of America" width="300"
              height="300">
-            <img src="Blank_Interstate_Highway_Sign.webp" alt="Blank Interstate Highway Sheild"
+            <img class="d-flex d-block" id="background_interstate_sign" src="Blank_Interstate_Highway_Sign.webp" alt="Blank Interstate Highway Sheild"
              width="400" height="400">
-            <div id="first_title_line">The Routes</div>
-            <div id="second_title_line">of America</div>
-            <img src="U.S_Interstate_Highway_Scenery.jpg" alt="Scenery of I-10 in Louisiana" 
+            <div class="webpage_titles d-flex">
+                <div id="first_title_line">State</div><br>
+                <div id="second_title_line">Routes</div>
+            </div>
+            <img class="d-block" id="main_highway_title_image" src="U.S_Interstate_Highway_Scenery.jpg" alt="Scenery of I-10 in Louisiana" 
              width="500" height="500">
         </main>
         <footer>
             <div class="row">
-                <p><a class="link-secondary" href="https://www.psu.edu/copyright-information">© 2025 The Penn State University</a></p>
+                <p><a class="link-secondary" id="copyright_link" href="https://www.psu.edu/copyright-information">© 2025 The Penn State University</a></p>
                 <p id="footer_text">If you like to see where this website is stored in my portfolio, then click the link
                  down below to view my portfolio storage of all the websites I've created.</p>
-                <p><a class="link-secondary" href="https://cbroyal.github.io/cbwebportfolio/">https://cbroyal.github.io/cbwebportfolio/</a></p>
+                <p><a class="link-secondary" id="web_portfolio_link" href="https://cbroyal.github.io/cbwebportfolio/">https://cbroyal.github.io/cbwebportfolio/</a></p>
             </div>
         </footer>
     </body>
