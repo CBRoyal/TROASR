@@ -27,7 +27,7 @@
 #routes_of_america_navbar li a{
     padding: 5px 10px;
 }
-#us_highway_signage_history_table, td, th{
+#state_route_table, td, th{
     border: 1px solid var(--us-highway-signage-history-table-border-color);
 }
 #routes_of_america_navbar li a:hover, #copyright_link:hover, #web_portfolio_link:hover{
