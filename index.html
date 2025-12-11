@@ -309,6 +309,76 @@
                     <td>Wyoming</td>
                 </tr>
             </table>
+        <section>
+                <h2>Need Help</h2>
+                <p>If you report any issues or roadblocks during your road trip with this website.
+                   Please contact us by clicking the "Help" button down below to send a contact form 
+                   to us and we'll contact you soon afterwards or else call or email us using the
+                   phone number and email down below.</p>
+                <p>
+                    <button type="button" class="btn btn-warning" id="help-button" 
+                     data-bs-toggle="modal" data-bs-target="#contact-modal">Help</button>
+                </p>
+                <div class="alert alert-success collapse text-white" id="conf-success-alert" role="alert">
+                    <strong>Thank you!</strong> We'll contact you soon!
+                </div>
+                <p>Phone Number: 570-704-7244</p>
+                <p><a class="link-secondary text-white" id="email_link" href="mailto:balascaleb2005@gmail.com">balascaleb2005@gmail.com</a></p>
+                <div class="modal fade bg-success text-white" id="contact-modal" tabindex="-1" 
+                role="dialog" aria-labbeledby="contact-modal-label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="contact-modal-label">Need Help</h5>
+                                <button type="button" class="close" data-bs-dismiss="modal" 
+                                aria-label="Close">
+                                    <span class="text-white" aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group" id="name_box">
+                                        <label for="name" class="col-form-label">Name:</label>
+                                        <input type="text" class="form-control" id="name">
+                                    </div>
+                                    <div class="form-group" id="address_box">
+                                        <label for="address" class="col-form-label">Address:</label>
+                                        <input type="text" class="form-control" id="address">
+                                    </div>
+                                    <div class="form-group" id="city_box">
+                                        <label for="city" class="col-form-label">City:</label>
+                                        <input type="text" class="form-control" id="city">
+                                    </div>
+                                    <div class="form-group" id="state_box">
+                                        <label for="state" class="col-form-label">State:</label>
+                                        <input type="text" class="form-control" id="state">
+                                    </div>
+                                    <div class="form-group" id="zip_code_box">
+                                        <label for="zip_code" class="col-form-label">Zip Code:</label>
+                                        <input type="text" class="form-control" id="zip_code">
+                                    </div>
+                                    <div class="form-group" id="phone_number_box">
+                                        <label for="phone_number" class="col-form-label">Phone Number:</label>
+                                        <input type="text" class="form-control" id="phone_number">
+                                    </div> 
+                                    <div class="form-group" id="email_box">
+                                        <label for="email" class="col-form-label">Email:</label>
+                                        <input type="text" class="form-control" id="email">
+                                    </div>
+                                    <div class="form-group" id="report_box">
+                                        <label for="name" class="col-form-label">What's the Roadblock:</label>
+                                        <textarea class="form-control" name="report" rows="20" cols="50"></textarea>
+                                    </div>   
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Send Form</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="row">
