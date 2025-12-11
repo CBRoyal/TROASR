@@ -4,7 +4,7 @@
     height: 20vh;
     left: 500px;
 }
-#background_us_sign{
+#background_state_route_sign{
     position: absolute;
     width: 10vw;
     height: 10vh;
@@ -30,31 +30,15 @@
     animation-duration: 3s;
     animation-delay: 1s;
 }
-#main_us_highway_title_image{
+#main_state_route_title_image{
     width: 50vw;
     height: 60vh;
     margin-left: auto;
     margin-right: auto;
 }
-#numbering_system_us_highway_container{
-    flex-direction: row-reverse;
-    text-wrap: wrap;
-}
-#signage_us_highway_container{
-    text-wrap: wrap;
-}
-#divided_us_highway_container{
-    flex-direction: row-reverse;
-    text-wrap: wrap;
-}
-#history_us_highway_container{
-    text-wrap: wrap;
-}
-#us_highway_signage_history_table, td, th{
+#state_route_table, td, th{
     border: 1px solid black;
     position: relative;
-    left: 200px;
-    top: 300px;
 }
 #address_box{
     left: 50px;
