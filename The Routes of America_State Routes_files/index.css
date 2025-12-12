@@ -39,6 +39,8 @@
 #state_route_table, td, th{
     border: 1px solid black;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 #help_button{
     border: 10px solid black;
