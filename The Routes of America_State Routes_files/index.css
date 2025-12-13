@@ -1,26 +1,27 @@
-#routes_of_america_logo{
+.routes_of_america_logo{
     position: relative;
-    width: 20vw;
-    height: 20vh;
     margin-left: auto;
     margin-right: auto;
 }
-.title_lines{
+.first_title_line{
     position: absolute;
-    left: 200px;
-    top: 40px;
-}
-.first{
+    left: 100px;
+    top: 90px;
+    z-index: 2;
     rotate: -35deg;
     font-family: "Permanent Marker", cursive, sans-serif;
-    font-size: 15px;
+    font-size: 15px; 
     animation-name: bringInTitle;
     animation-duration: 3s;
 }
-.second{
+.second_title_line{
+    position: absolute;
+    left: 120px;
+    top: 110px;
+    z-index: 1;
     rotate: -35deg;
     font-family: "Permanent Marker", cursive, sans-serif;
-    font-size: 15px;
+    font-size: 15px; 
     animation-name: bringInTitle;
     animation-duration: 3s;
     animation-delay: 1s;
@@ -30,6 +31,10 @@
     height: 60vh;
     margin-left: auto;
     margin-right: auto;
+}
+div.tablecontainer{
+    overflow-x: auto;
+    overflow-y: auto;
 }
 #state_route_table, td, th{
     border: 1px solid black;
@@ -77,34 +82,41 @@ td, th{
 }
 .routes_of_america_footer{
     position: fixed;
+    margin-top: 30px;
 }
-#routes_of_america_navbar > a:hover, #copyright_link:hover, #web_portfolio_link:hover, 
+#routes_of_america_navbar ul{
+    list-style-type: none;
+    padding: 10px 0;
+}
+#routes_of_america_navbar li a{
+    color: white;
+}
+#copyright_link, #web_portfolio_link, #email_link{
+    color: black;
+}
+#routes_of_america_navbar li a:hover,#copyright_link:hover, #web_portfolio_link:hover,
 #email_link:hover{
     color: orange;
 }
-#routes_of_america_navbar > a:visited, #copyright_link:visited, #web_portfolio_link:visited, 
+#routes_of_america_navbar li a:visited, #copyright_link:visited, #web_portfolio_link:visited, 
 #email_link:visited{
     color: yellow;
 }
-@media all and (max-width: 700px){
-    #main_page_interstate_highway_container,#main_page_us_highway_container, #main_page_state_route_container, 
-    #main_page_other_routes_and_highways_container{
-        flex-direction: row;
-        text-wrap: wrap;
+@media (max-width: 700px){
+    #main_page_interstate_highway_container, #main_page_state_route_container,
+    #main_page_us_highway_container, #main_page_other_routes_and_highways_container{
+        flex-direction: column;
+    }
 }
-}
-@media all and (max-width: 500px){
+@media (max-width: 500px){
     #main_page_interstate_highway_pictures, #main_page_us_highway_pictures, #main_page_state_route_pictures, 
     #main_page_other_routes_and_highways_pictures{
         flex-direction: column;
-        text-wrap: wrap;
     }
 }
 @keyframes bringInTitle{
-    0% {transform: translate(-10px, 45px) rotate(-35deg);}
-    15% {transform: translate(60px, 25px) rotate(-35deg);}
-    25% {transform: translate(60px, 25px) rotate(35deg);}
-    50% {transform: translate(100px, 45px) rotate(35deg);}
-    75% {transform: translate(100px, 45px) rotate(-35deg);}
-    100% {transform: translate(200px, 100px) rotate(-35deg);}
+    0% {transform: translate(1010px, 30px) rotate(0deg);}
+    25% {transform: translate(400px, 30px) rotate(0deg);}
+    75% {transform: translate(400px, 30px) rotate(-35deg);}
+    100% {transform: translate(80px, 80px) rotate(-35deg);}
 }
