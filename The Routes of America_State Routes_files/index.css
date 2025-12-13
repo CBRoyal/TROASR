@@ -102,18 +102,6 @@ td, th{
 #email_link:visited{
     color: yellow;
 }
-@media (max-width: 700px){
-    #main_page_interstate_highway_container, #main_page_state_route_container,
-    #main_page_us_highway_container, #main_page_other_routes_and_highways_container{
-        flex-direction: column;
-    }
-}
-@media (max-width: 500px){
-    #main_page_interstate_highway_pictures, #main_page_us_highway_pictures, #main_page_state_route_pictures, 
-    #main_page_other_routes_and_highways_pictures{
-        flex-direction: column;
-    }
-}
 @keyframes bringInTitle{
     0% {transform: translate(1010px, 30px) rotate(0deg);}
     25% {transform: translate(400px, 30px) rotate(0deg);}
