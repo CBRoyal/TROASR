@@ -1,3 +1,6 @@
+:root{
+    --routes-of-america-navbar-link-hover-color: #32cd32;
+}
 .routes_of_america_logo{
     position: relative;
 }
