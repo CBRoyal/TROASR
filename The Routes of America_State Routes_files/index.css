@@ -42,12 +42,8 @@ div.tablecontainer{
     overflow-x: auto;
     overflow-y: auto;
 }
-#state_route_table, td, th{
-    border: 1px solid black;
-    border-collapse: collapse;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+#state_route_table td, #state_route_table th{
+    border: 5px solid var(--routes-of-america-modal-color);
 }
 #state_route_table{
     width: 100%;
@@ -68,22 +64,22 @@ nav ul{
 }
 .modal-header,
 .modal-body{
-    color: black;
+    color: var(--routes-of-america-modal-color);
 }
 #email-link,
 #copyright-link,
 #webportfolio-link{
-    color: green;
+    color: var(--routes-of-america-footer-link-color);
 }
 #email-link:hover,
 #copyright-link:hover,
 #webportfolio-link:hover{
-    color: orange;
+    color: var(--routes-of-america-footer-link-hover-color);
 }
-#email-link:visited,
-#copyright-link:visited,
-#webportfolio-link:visited{
-    color: red;
+#email-link:active,
+#copyright-link:active,
+#webportfolio-link:active{
+    color: var(--routes-of-america-footer-link-active-color);
 }
 @keyframes bringInTitle{
     0% {transform: translate(1010px, 30px) rotate(0deg);}
