@@ -8,10 +8,11 @@
 }
 .routes_of_america_logo{
     position: relative;
+    margin-left: 470px;
 }
 .first_title_line{
     position: absolute;
-    left: 100px;
+    left: 570px;
     top: 90px;
     z-index: 2;
     rotate: -35deg;
@@ -22,7 +23,7 @@
 }
 .second_title_line{
     position: absolute;
-    left: 120px;
+    left: 570px;
     top: 110px;
     z-index: 1;
     rotate: -35deg;
@@ -35,8 +36,8 @@
 #main_state_route_title_image{
     width: 50vw;
     height: 60vh;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 360px;
+    margin-top: 10px;
 }
 div.tablecontainer{
     overflow-x: auto;
@@ -55,8 +56,6 @@ td, th{
 }
 #help_button{
     border: 10px solid black;
-    margin-left: auto;
-    margin-right: auto;
 }
 nav ul{
     list-style-type: none;
